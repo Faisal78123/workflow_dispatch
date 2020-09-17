@@ -1,6 +1,7 @@
 name: on_push
 on:
   push:
+    branches: [ dev ]
 jobs:
   helloworld:
     runs-on: ubuntu-latest
