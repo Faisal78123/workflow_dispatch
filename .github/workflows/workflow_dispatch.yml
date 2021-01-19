@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
 jobs:
   helloworld:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
-    - name: echo helloworld
-      run: echo helloworld
+    - name: cat /etc/docker/daemon.json
+      run: cat /etc/docker/daemon.json
